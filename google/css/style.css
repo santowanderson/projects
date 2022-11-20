@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-family: arial, sans-serif;
+}
+
+body {
+    background-color: #202124;
+    height: 100vh;
+    max-height: 100vh;
+    min-width: 770px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+img {
+    width: 32px;
+    border-radius: 50%;
+}
+
+nav div {
+    margin: 7px;
+    padding: 3px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-img:hover {
+    background-color: #515151;
+    border-radius: 50%;
+}
+
+#google-logo img {
+    width: 270px;
+}
+
+#google-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #5f6368;
+    border-radius: 40px;
+    width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+
+input {
+    all: unset;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    margin-left: 6px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-item1, .btn-item2 {
+    background-color: #303134;
+    border: 1 px solid #303134;
+    color: #e8eaed;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.btn-item1:hover, .btn-item2:hover {
+    border: 1px solid #5f6368;
+    cursor: pointer;
+}
+
+.btn-item1 {
+    margin-right: 5px;
+}
+
+.btn-item2 {
+    margin-left: 5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-link1 {
+    background-color: #171717;
+    color: #9aa0a6;
+    border-bottom: 1px solid #3c4043;
+    padding: 15px 13px;
+    font-size: 15px;
+    display: block;
+}
+
+.footer-link2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+
+    color: #9aa0a6;
+    background-color: #171717;
+    padding: 15px 13px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover,
+.item5:hover,
+.item6:hover,
+.item7:hover  {
+    cursor: pointer;
+    text-decoration: underline;
+}
